@@ -69,10 +69,9 @@ window.addEventListener("scroll", function () {
     }
   });
 });
-
 var swiper = new Swiper(".multiple-slide-carousel", {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
   navigation: {
     nextEl: "#slider-button-left",
@@ -87,9 +86,13 @@ var swiper = new Swiper(".multiple-slide-carousel", {
       slidesPerView: 2,
       spaceBetween: 30,
     },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
     0: {
-      slidesPerView: 300,
-      spaceBetween: 0,
+      slidesPerView: 1,
+      spaceBetween: 10,
     },
   },
 });
