@@ -88,10 +88,8 @@ var swiper = new Swiper(".multiple-slide-carousel", {
       spaceBetween: 30,
     },
     0: {
-      slidesPerView: 1,
+      slidesPerView: 300,
       spaceBetween: 0,
     },
   },
 });
-
-
